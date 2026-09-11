@@ -1,0 +1,40 @@
+# Local configuration / secrets
+.env
+.env.*
+*.local.php
+config.local.php
+mail_config.local.php
+RFID/api/config.local.php
+
+# Database dumps / local databases
+*.sql.bak
+*.sql.backup
+*.dump
+*.sqlite
+*.sqlite3
+
+# Backups
+*-BACKUP/
+*-BACKUP-*/
+backup/
+backups/
+
+# Logs
+*.log
+logs/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# PHP / Composer
+vendor/
+composer.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
